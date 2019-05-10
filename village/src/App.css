@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin-left: 50px;
 }
 
 .nav-links{ 
@@ -7,7 +8,47 @@
   justify-content: flex-end;
 }
 
+nav {
+  display: flex;
+  justify-content: center;
+  padding-right: 100px;
+}
+
 .nav-links a {
   text-decoration: none;
   margin: 10px;
+  color: white;
+  border: 1px solid black;
+  border-radius: 50px;
+  width: 150px;
+  height: 20px;
+  text-align: center;
+background: black;
+}
+
+.SmurfForm {
+  width: 500px;
+  padding: 30px;
+  background: lightgray;
+  margin: 40px 270px 0;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+
+}
+
+.Smurf {
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 30px;
+  width: 500px;
+  color: blue;
+  background:lightgray;
+}
+.Smurfs ul {
+  display: flex;
+
+}
+
+.Smurfs h1 {
+  color: blue;
+  padding-right: 100px;
 }
