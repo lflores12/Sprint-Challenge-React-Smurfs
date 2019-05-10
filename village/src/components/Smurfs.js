@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../App.css';
 
 import Smurf from './Smurf';
 
@@ -10,7 +11,7 @@ class Smurfs extends Component {
         <ul>
           {this.props.smurfs.map(smurf => {
             return (
-              <Smurf
+              <Smurf className = 'smurfCard'
                 name={smurf.name}
                 id={smurf.id}
                 age={smurf.age}
