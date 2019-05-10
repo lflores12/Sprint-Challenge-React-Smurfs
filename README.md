@@ -28,9 +28,9 @@ In this challenge, you will create a Single Page Application complete with Clien
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] Explain the differences between `client-side routing` and `server-side routing`.
-- [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
-- [ ] Mention three tools we can use to make AJAX requests.
+- [ ] Explain the differences between `client-side routing` and `server-side routing`. the difference between client side routing and server side is the that with client side routing, the user makes one big request to the server once in the beginning and all the info is there to use from then on. with server side, everytime you need data you have to make another request to the server.
+- [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers. In lambda school we use POST, GET, PUT and DELETE but there are a few others avaiable to us. 
+- [ ] Mention three tools we can use to make AJAX requests. the three tools are 'fetch' '.then' and '.catch'
 
 
 ## Project Set Up
